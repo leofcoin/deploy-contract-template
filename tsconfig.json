@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "moduleResolution": "nodenext",
+    "module": "NodeNext",
+    "declaration": true,
+    "declarationDir": "exports"
+  },
+  "include": [
+    "./src/**/*",
+    "./node_modules/@leofcoin/global-types/**/*",
+    "@leofcoin/standards"
+  ]
+}
